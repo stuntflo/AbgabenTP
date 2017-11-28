@@ -1,0 +1,159 @@
+/* Basic sample */
+
+body{
+    
+	overflow:hidden;
+	background-color:#fcfcfc;
+	margin:0;
+	padding:0;
+    background: url('pics/giphy1.gif') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.flipbook-viewport{
+	overflow:hidden;
+	width:100%;
+	height:100%;
+}
+
+.flipbook-viewport .container{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:auto;
+}
+
+.flipbook-viewport .flipbook{
+	width:922px;
+	height:600px;
+	left:-380px;
+	top:-300px;
+}
+
+.flipbook-viewport .page{
+	width:461px;
+	height:600px;
+	background-color:white;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook .page{
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-o-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.inhalte
+{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 23px;
+     font-family: "Lucida Handwriting";
+}
+.inhalte:hover
+{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 23px;
+    font-weight: bold;
+     font-family: "Lucida Handwriting";
+    color: black;
+    cursor: pointer;
+}
+.page1{
+    background-color: aqua;
+}
+
+h1{
+    font-family: "Showcard Gothic";
+    text-align: center;
+    font-size: 30px;
+}
+.head{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    display: block;
+    font-family: "Broadway"
+}
+.underhead{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    display: block;
+    font-family: "Broadway"
+}
+.contents{
+    text-align: center;
+    font-size: 17px;
+    font-family: "Lucida Handwriting";
+}
+.contents:hover{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "Lucida Handwriting";
+    cursor: pointer;
+    
+}
+.text{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    padding: 0px, 0px, 0px, 0px;
+    font-family: "Lucida Handwriting";
+    font-size: 17px;
+}
+.text1{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    padding: 0px, 0px, 0px, 0px;
+    font-family: "Lucida Handwriting";
+    font-size: 16px;
+}
+.link{
+    text-align: center;
+    display: block;
+    font-family: "Lucida Handwriting";
+    font-size: 17px;
+    color: black;
+}
+.link:hover{
+    text-align: center;
+    display: block;
+    font-family: "Lucida Handwriting";
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+.source{
+    text-align: left;
+    margin-left: 15px;
+    display: block;
+    font-family: "Lucida Handwriting";
+    font-size: 17px;
+    color: black;
+}
+.source:hover{
+    text-align: left;
+    margin-left: 15px;
+    display: block;
+    font-family: "Lucida Handwriting";
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+.books{
+    text-decoration: none;
+    color: red;
+}
+.books:hover{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
